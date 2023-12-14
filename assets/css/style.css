@@ -1,0 +1,20 @@
+:root {
+    --navbarHeight: 80px;
+    --sidebarWidthMobile: 60px;
+    --mainTopbarColor: #1B72E8;
+}
+
+#navbar {
+    height: var(--navbarHeight);
+}
+
+#aside {
+    height: calc(100vh - var(--navbarHeight));
+    width: var(--sidebarWidthMobile);
+    background: url(/assets/img/sidebar-bg.png);
+}
+
+#main-topbar {
+    background-color: var(--mainTopbarColor);
+    width: calc(100% - var(--sidebarWidthMobile));
+}

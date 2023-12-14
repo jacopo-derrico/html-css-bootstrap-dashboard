@@ -10,12 +10,149 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
+    <!-- FONTAWESOME -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css'
+        integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=='
+        crossorigin='anonymous' />
+
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
+    <div id="web-app" class="vh-100">
+        <!-- SECTION HEADER -->
+
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid align-items-center">
+                <a class="navbar-brand d-flex" href="#">
+                    <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="Logo">
+                    <img class="d-lg-none" src="./assets/img/mobile-logo.png" alt="Logo" height="50px">
+                </a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- !SECTION HEADER END -->
+
+
+        <!-- SECTION MAIN -->
+
+        <div class="container-fluid d-flex p-0">
+            <div class="row w-100 m-0 p-0">
+                <!-- SECTION ASIDE -->
+
+                <aside id="aside">
+                    <div class="h-100">
+                        <div>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-gear"></i>
+                                        <span>Admin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- !SECTION ASIDE END -->
+
+                <!-- SECTION RIGHT SIDE -->
+                <div>
+
+                    <!-- SECTION TOPBAR -->
+
+                    <div id="main-topbar" class="row m-0 p-0">
+                        <div class="d-flex h-auto">
+                            <h6 class="mb-0">nuovo studente</h6>
+                            <button class="btn btn-light h-25">&plus;</button>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                    <!-- !SECTION TOPBAR END -->
+
+                    <!-- SECTION MAIN CONTENT -->
+
+                    <div id="main-content" class="row m-0 p-0">
+                        <div class="d-flex h-auto">
+                            <h6 class="mb-0">nuovo studente</h6>
+                            <button class="btn btn-light h-25">&plus;</button>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+
+                    <!-- !SECTION MAIN CONTENT END -->
+                </div>
+
+                <!-- !SECTION RIGHT SIDE END -->
+
+
+            </div>
+
+        </div>
+
+        <!-- !SECTION MAIN END -->
+
+    </div>
 
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
