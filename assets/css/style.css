@@ -9,6 +9,10 @@
     height: var(--navbarHeight);
 }
 
+/* #search-bar {
+    height: 50px;
+} */
+
 main {
     height: calc(100vh - var(--navbarHeight));
 }
@@ -25,5 +29,5 @@ main {
 
 #main-topbar {
     background-color: var(--mainTopbarColor);
-    width: calc(100% - var(--sidebarWidthMobile));
+    /* width: calc(100% - var(--sidebarWidthMobile)); */
 }
