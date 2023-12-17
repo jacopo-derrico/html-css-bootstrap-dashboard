@@ -1,17 +1,26 @@
 :root {
     --navbarHeight: 80px;
-    --sidebarWidthMobile: 60px;
     --mainTopbarColor: #1B72E8;
+    --textColorLight: #fff;
+    --textColorDark: #000;
 }
 
 #navbar {
     height: var(--navbarHeight);
 }
 
-#aside {
+main {
     height: calc(100vh - var(--navbarHeight));
-    width: var(--sidebarWidthMobile);
-    background: url(/assets/img/sidebar-bg.png);
+}
+
+#aside {
+    width: fit-content;
+    background-image: url(/assets/img/sidebar-bg.png);
+}
+
+#aside a {
+    color: var(--textColorLight);
+    fill: var(--textColorLight);
 }
 
 #main-topbar {
