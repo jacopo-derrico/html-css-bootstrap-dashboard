@@ -1,6 +1,5 @@
 :root {
     --navbarHeight: 80px;
-    --mainTopbarColor: #1B72E8;
     --textColorLight: #fff;
     --textColorDark: #000;
 }
@@ -8,10 +7,6 @@
 #navbar {
     height: var(--navbarHeight);
 }
-
-/* #search-bar {
-    height: 50px;
-} */
 
 main {
     height: calc(100vh - var(--navbarHeight));
@@ -25,9 +20,4 @@ main {
 #aside a {
     color: var(--textColorLight);
     fill: var(--textColorLight);
-}
-
-#main-topbar {
-    background-color: var(--mainTopbarColor);
-    /* width: calc(100% - var(--sidebarWidthMobile)); */
 }

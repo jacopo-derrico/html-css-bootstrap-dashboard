@@ -23,62 +23,61 @@
 
     <div id="web-app" class="vh-100 w-100">
         <!-- SECTION HEADER -->
+        <div class="container-fluid px-0">
+            <nav id="navbar" class="navbar navbar-expand-lg m-0 flex-nowrap">
+                <div class="container-fluid px-0 align-items-center">
+                    <a class="navbar-brand d-flex" href="#">
+                        <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="Logo">
+                        <img class="d-lg-none" src="./assets/img/mobile-logo.png" alt="Logo" height="50px">
+                    </a>
 
-        <nav id="navbar" class="navbar navbar-expand-lg flex-nowrap">
-            <div class="container-fluid align-items-center">
-                <a class="navbar-brand d-flex" href="#">
-                    <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="Logo">
-                    <img class="d-lg-none" src="./assets/img/mobile-logo.png" alt="Logo" height="50px">
-                </a>
+                    <form role="search" class="d-flex bg-secondary-subtle w-100 rounded">
+                        <div id="search-bar" class="input-group">
+                            <span class="input-group-text bg-secondary-subtle">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <input type="search" class="form-control bg-secondary-subtle" id="floatingInputGroup1"
+                                placeholder="Prova a cercare: Lezioni di Laravel">
+                        </div>
+                    </form>
 
-                <form role="search" class="d-flex bg-secondary-subtle w-100 rounded">
-                    <div id="search-bar" class="input-group">
-                        <span class="input-group-text bg-secondary-subtle">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                        <input type="search" class="form-control bg-secondary-subtle" id="floatingInputGroup1"
-                            placeholder="Prova a cercare: Lezioni di Laravel">
-                    </div>
-                </form>
-
-                <ul class="nav mb-lg-0 flex-nowrap">
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link text-secondary" aria-current="page" href="#">
-                            <i class="fa-solid fa-list-ul"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link text-secondary" href="#">
-                            <i class="fa-solid fa-circle-question"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link text-secondary" aria-disabled="true">
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-bell text-warning"></i>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">Profilo</a></li>
-                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-
-            </div>
-        </nav>
+                    <ul class="nav mb-lg-0 flex-nowrap">
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link text-secondary" aria-current="page" href="#">
+                                <i class="fa-solid fa-list-ul"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link text-secondary" href="#">
+                                <i class="fa-solid fa-circle-question"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link text-secondary" aria-disabled="true">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell text-warning"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
         <!-- !SECTION HEADER END -->
 
 
         <!-- SECTION MAIN -->
 
-        <main class="container-fluid d-flex p-0">
+        <main class="container-fluid d-flex p-0 w-100">
             <div class="row w-100 m-0 p-0 d-flex flex-nowrap">
                 <!-- SECTION ASIDE -->
 
@@ -116,20 +115,38 @@
                 <!-- !SECTION ASIDE END -->
 
                 <!-- SECTION RIGHT SIDE -->
-                <div>
+                <div class="m-0 p-0">
 
                     <!-- SECTION TOPBAR -->
 
-                    <div id="main-topbar" class="row m-0 p-0">
-                        <div class="d-flex h-auto">
-                            <h6 class="mb-0">nuovo studente</h6>
-                            <button class="btn btn-light h-25">&plus;</button>
+                    <div id="main-topbar" class="row align-items-start m-0 py-4 bg-primary text-light">
+                        <div class="col-12 col-md-4 order-md-3 d-flex align-items-center h-auto my-2 gap-3">
+                            <h6 class="mb-0">Nuovo Studente</h6>
+                            <button class="btn btn-outline-light">&plus;</button>
                         </div>
-                        <div>
-
+                        <div class="col-12 col-md-4 d-flex flex-column h-auto my-2 gap-2">
+                            <div>
+                                <h4 class="d-inline mb-0">Boolean</h4>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25">Piano blaze</span>
+                            </div>
+                            <div class="d-flex flex-wrap align-items-center gap-2">
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25">3 app</span>
+                                <i class="fa-solid fa-angles-right"></i>
+                                <!-- md wrap up -->
+                                <span
+                                    class="badge rounded-pill text-bg-dark bg-opacity-25 lh-sm d-lg-none">&plus;</span>
+                                <!-- d-md-none -->
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                    mobile app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                    web app</span>
+                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                    blog app</span>
+                            </div>
                         </div>
-                        <div>
-
+                        <div class="col-12 col-md-4 ">
+                            <h6>Studenti online negli ultimi 30 minuti</h6>
+                            <span class="h5">125</span>
                         </div>
                     </div>
 
