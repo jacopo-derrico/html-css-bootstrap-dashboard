@@ -115,7 +115,7 @@
                 <!-- !SECTION ASIDE END -->
 
                 <!-- SECTION RIGHT SIDE -->
-                <div class="container-fluid m-0 p-0 overflow-auto">
+                <div class="container-fluid m-0 p-0 overflow-y-scroll">
 
                     <!-- SECTION TOPBAR -->
 
@@ -159,264 +159,329 @@
 
                     <!-- SECTION MAIN CONTENT -->
 
-                    <div id="main-content" class="container-fluid m-0 p-0">
-                        <div class="px-2 py-3">
-                            <div class="card col-12 col-lg-8 p-0 border">
-                                <div class="card-header p-2 border-bottom">
-                                    <h5 class="mb-0">Prossime classi</h5>
-                                </div>
-                                <div class="card-text p-2 bg-white">
-                                    <table class="table align-middle">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" class="h6">Nome</th>
-                                                <th scope="col" class="h6 text-center d-none d-md-table-cell">Data
-                                                    inizio
-                                                </th>
-                                                <th scope="col" class="h6 text-center d-none d-md-table-cell">ROI</th>
-                                                <th scope="col" class="h6 text-center">Stato</th>
-                                                <th scope="col" class="h6 text-center">Azioni</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 75
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-success">Done</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
+                    <div id="main-content" class="container-fluid m-0">
+                        <div class="row">
+                            <div class="px-2 py-3 col-12 col-lg-8">
+                                <div class="card p-0 border mb-4">
+                                    <div class="card-header p-2 border-bottom">
+                                        <h5 class="mb-0">Prossime classi</h5>
+                                    </div>
+                                    <div class="card-text p-2 bg-white">
+                                        <table class="table align-middle">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" class="h6">Nome</th>
+                                                    <th scope="col" class="h6 text-center d-none d-md-table-cell">Data
+                                                        inizio
+                                                    </th>
+                                                    <th scope="col" class="h6 text-center d-none d-md-table-cell">ROI
+                                                    </th>
+                                                    <th scope="col" class="h6 text-center">Stato</th>
+                                                    <th scope="col" class="h6 text-center">Azioni</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 75
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">15 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
 
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 76
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">16 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-success">Done</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 77
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">17 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-warning text-white">Process</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 78
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">18 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-success">Done</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 79
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">19 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-danger">Failed</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 80
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">20 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-success">Done</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 81
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">21 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-danger">Failed</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-start">
-                                                    <figure class="mb-0 d-inline-block">
-                                                        <img width="32" class="img-fluid"
-                                                            src="./assets/img/class-avatar.png" alt="avatar">
-                                                    </figure>
-                                                    Classe 82
-                                                </td>
-                                                <td class="text-center d-none d-md-table-cell">22 Feb 2021</td>
-                                                <td class="text-center d-none d-md-table-cell">20%</td>
-                                                <td class="text-center">
-                                                    <span class="badge text-bg-success">Done</span>
-                                                </td>
-                                                <td class="text-center">
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-pencil"></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-secondary">
-                                                        <i class="fa-solid fa-trash"></i>
-                                                    </button>
-                                                </td>
-                                            </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 76
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">16 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 77
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">17 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-warning text-white">Process</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 78
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">18 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 79
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">19 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-danger">Failed</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 80
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">20 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 81
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">21 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-danger">Failed</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-start">
+                                                        <figure class="mb-0 d-inline-block">
+                                                            <img width="32" class="img-fluid"
+                                                                src="./assets/img/class-avatar.png" alt="avatar">
+                                                        </figure>
+                                                        Classe 82
+                                                    </td>
+                                                    <td class="text-center d-none d-md-table-cell">22 Feb 2021</td>
+                                                    <td class="text-center d-none d-md-table-cell">20%</td>
+                                                    <td class="text-center">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-pencil"></i>
+                                                        </button>
+                                                        <button class="btn btn-outline-secondary">
+                                                            <i class="fa-solid fa-trash"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
 
 
-                                        </tbody>
-                                    </table>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card col-12 col-lg-8 p-0 border">
-                                <div class="card-header p-2 border-bottom">
-                                    <h5 class="mb-0">F.A.Q.</h5>
-                                </div>
-                                <div class="card-text p-2 bg-white">
-                                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                                    aria-expanded="false" aria-controls="flush-collapseOne">
-                                                    Accordion Item #1
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the first item's accordion body.</div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                    Accordion Item #2
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the second item's accordion body. Let's imagine this
-                                                    being filled with some actual content.</div>
-                                            </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                                    aria-expanded="false" aria-controls="flush-collapseThree">
-                                                    Accordion Item #3
-                                                </button>
-                                            </h2>
-                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body">Placeholder content for this accordion,
-                                                    which is intended to demonstrate the <code>.accordion-flush</code>
-                                                    class. This is the third item's accordion body. Nothing more
-                                                    exciting happening here in terms of content, but just filling up the
-                                                    space to make it look, at least at first glance, a bit more
-                                                    representative of how this would look in a real-world application.
+                                <div class="card p-0 border">
+                                    <div class="card-header p-2 border-bottom">
+                                        <h5 class="mb-0">F.A.Q.</h5>
+                                    </div>
+                                    <div class="card-text p-2 bg-white">
+                                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Come aggiungere un nuovo studente?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code>
+                                                        class. This is the first item's accordion body.
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                        Come posso accedere alle informazioni del mio account?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code>
+                                                        class. This is the second item's accordion body. Let's imagine
+                                                        this
+                                                        being filled with some actual content.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                                        Posso usare questa dasbboard da mobile?
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                    data-bs-parent="#accordionFlushExample">
+                                                    <div class="accordion-body">Placeholder content for this accordion,
+                                                        which is intended to demonstrate the
+                                                        <code>.accordion-flush</code>
+                                                        class. This is the third item's accordion body. Nothing more
+                                                        exciting happening here in terms of content, but just filling up
+                                                        the
+                                                        space to make it look, at least at first glance, a bit more
+                                                        representative of how this would look in a real-world
+                                                        application.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-2 py-3 col-12 col-lg-4">
+                                <div class="card p-0 border mb-4">
+                                    <div class="card-header p-2 border-bottom">
+                                        <h5 class="mb-0">Todo</h5>
+                                    </div>
+                                    <div class="card-text p-2 bg-white">
+                                        <div class="border border-1 rounded">
+                                            <div class="input-group">
+                                                <div class="input-group-text border-0 bg-white">
+                                                    <input class="form-check-input mt-0" type="checkbox" value="">
+                                                </div>
+                                                <span class="form-control border-0">Kickoff nuove classi</span>
+                                            </div>
+                                            <hr class="m-0">
+                                            <div class="input-group">
+                                                <div class="input-group-text border-0 bg-white">
+                                                    <input class="form-check-input mt-0" type="checkbox" value="">
+                                                </div>
+                                                <span class="form-control border-0">Lezioine su Bootstrap 5 in classe
+                                                    #75</span>
+                                            </div>
+                                            <hr class="m-0">
+                                            <div class="input-group">
+                                                <div class="input-group-text border-0 bg-white">
+                                                    <input class="form-check-input mt-0" type="checkbox" value="">
+                                                </div>
+                                                <span class="form-control border-0">Controllare username github
+                                                    studenti</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-0 border mb-4">
+                                    <div class="card-text p-2 bg-white">
+
+                                        <div class="border border-1 rounded">
+                                            <figure>
+                                                <img class="img-fluid" src="./assets/img/stats.jpeg" alt="stats">
+                                            </figure>
+                                            <h6 class="px-2">Utenti attivi</h6>
+                                            <p class="px-2">Lista degli utenti attivi in piattaforma nell'ultimo mese
+                                            </p>
+                                            <hr>
+                                            <span class="px-2">Gennaio: 1200</span>
+                                            <hr>
+                                            <span class="px-2">Febbraio: 800</span>
+                                            <hr>
+                                            <span class="px-2">Marzo: 1500</span>
+                                            <hr>
+                                            <a href="#" class="px-2">Visualizza report approfondito</a>
                                         </div>
                                     </div>
                                 </div>
