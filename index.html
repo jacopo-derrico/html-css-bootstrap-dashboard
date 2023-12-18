@@ -78,7 +78,7 @@
         <!-- SECTION MAIN -->
 
         <main class="container-fluid d-flex p-0 w-100 bg-light">
-            <div class="row w-100 m-0 p-0 d-flex flex-nowrap">
+            <div class="w-100 m-0 p-0 d-flex flex-nowrap">
                 <!-- SECTION ASIDE -->
 
                 <div id="aside" data-bs-theme="dark"
@@ -115,38 +115,43 @@
                 <!-- !SECTION ASIDE END -->
 
                 <!-- SECTION RIGHT SIDE -->
-                <div class="m-0 p-0">
+                <div class="container-fluid m-0 p-0">
 
                     <!-- SECTION TOPBAR -->
 
-                    <div id="main-topbar" class="row align-items-start m-0 py-4 bg-primary text-light">
-                        <div class="col-12 col-md-4 order-md-3 d-flex align-items-center h-auto my-2 gap-3">
-                            <h6 class="mb-0">Nuovo Studente</h6>
-                            <button class="btn btn-outline-light">&plus;</button>
-                        </div>
-                        <div class="col-12 col-md-4 d-flex flex-column h-auto my-2 gap-2">
-                            <div>
-                                <h4 class="d-inline mb-0">Boolean</h4>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25">Piano blaze</span>
+                    <div id="main-topbar" class="container-fluid align-items-start m-0 py-4 bg-primary text-light">
+                        <div class="row">
+                            <div class="col-12 col-md-4 order-md-3 d-flex align-items-center h-auto my-2 gap-3">
+                                <h6 class="mb-0">Nuovo Studente</h6>
+                                <button class="btn btn-outline-light">&plus;</button>
                             </div>
-                            <div class="d-flex flex-wrap align-items-center gap-2">
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25">3 app</span>
-                                <i class="fa-solid fa-angles-right"></i>
-                                <!-- md wrap up -->
-                                <span
-                                    class="badge rounded-pill text-bg-dark bg-opacity-25 lh-sm d-lg-none">&plus;</span>
-                                <!-- d-md-none -->
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
-                                    mobile app</span>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
-                                    web app</span>
-                                <span class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
-                                    blog app</span>
+                            <div class="col-12 col-md-4 d-flex flex-column h-auto my-2 gap-2">
+                                <div>
+                                    <h4 class="d-inline mb-0">Boolean</h4>
+                                    <span class="badge rounded-pill text-bg-dark bg-opacity-25">Piano blaze</span>
+                                </div>
+                                <div class="d-flex flex-wrap align-items-center gap-2">
+                                    <span class="badge rounded-pill text-bg-dark bg-opacity-25">3 app</span>
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    <!-- md wrap up -->
+                                    <span
+                                        class="badge rounded-pill text-bg-dark bg-opacity-25 lh-sm d-lg-none">&plus;</span>
+                                    <!-- d-md-none -->
+                                    <span
+                                        class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                        mobile app</span>
+                                    <span
+                                        class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                        web app</span>
+                                    <span
+                                        class="badge rounded-pill text-bg-dark bg-opacity-25 d-none d-lg-block">Boolean
+                                        blog app</span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-4 ">
-                            <h6>Studenti online negli ultimi 30 minuti</h6>
-                            <span class="h5">125</span>
+                            <div class="col-12 col-md-4 ">
+                                <h6>Studenti online negli ultimi 30 minuti</h6>
+                                <span class="h5">125</span>
+                            </div>
                         </div>
                     </div>
 
@@ -154,45 +159,41 @@
 
                     <!-- SECTION MAIN CONTENT -->
 
-                    <div id="main-content" class="row m-0 p-0">
-                        <div class="m-2 p-0 border rounded">
-                            <div class="bg-light-subtle p-2 border-bottom">
-                                <h5 class="mb-0">Prossime classi</h5>
+                    <div id="main-content" class="container-fluid m-0 p-0">
+                        <div>
+                            <div class="card m-2 p-0 border rounded">
+                                <div class="card-header p-2 border-bottom">
+                                    <h5 class="mb-0">Prossime classi</h5>
+                                </div>
+                                <div class="p-2 bg-white">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">Classe 75</th>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                            <div class="p-2 bg-white">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">Data inizio</th>
-                                            <th scope="col">ROI</th>
-                                            <th scope="col">Stato</th>
-                                            <th scope="col">Azioni</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td colspan="2">Larry the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div>
+
+
                             </div>
                         </div>
-                        <div></div>
                     </div>
 
                     <!-- !SECTION MAIN CONTENT END -->
