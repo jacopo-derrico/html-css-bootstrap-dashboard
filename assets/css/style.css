@@ -30,3 +30,9 @@ main {
     background-color: var(--textColorLight);
     color: var(--textColorDark);
 }
+
+@media (min-width: 992px) {
+    .offcanvas.offcanvas-end.w-100 {
+        width: 45% !important;
+    }
+}
